@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Mercado</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <!-- font awesome cnd link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- header section starts -->
+
+    <header class="header">
+
+        <a href="#" class="logo"> <i class="fas fa-shopping-basket"></i> Groco </a>
+
+        <nav class="navbar">
+            <a href="#home">Início</a>
+            <a href="#features">Características</a>
+            <a href="#products">Mais vendidos</a>
+            <a href="#categories">Categorias</a>
+            <a href="#review">Avaliações</a>
+            <a href="#blogs">Blogs</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
+
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="Pesquise aqui...">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="imagens/img1.png" alt="">
+                <div class="content">
+                    <h3>Picanha Friboi tradicional peça a vácuo kg</h3>
+                    <span class="price">R$57,99/-</span>
+                    <span class="quantity">qtd: 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="imagens/img2.png" alt="">
+                <div class="content">
+                    <h3>Fraldinha Friboi peça kg</h3>
+                    <span class="price">R$36,99/-</span>
+                    <span class="quantity">qtd: 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="imagens/img3.png" alt="">
+                <div class="content">
+                    <h3>Contrafilé pedaço kg</h3>
+                    <span class="price">R$41,99/-</span>
+                    <span class="quantity">qtd: 1</span>
+                </div>
+            </div>
+            <div class="total"> total: R$136,97</div>
+            <a href="#" class="btn">Apagar carrinho</a>
+        </div>
+
+        <form action="" class="login-form">
+            <h3>Login</h3>
+            <input type="email" placeholder="Seu e-mail: " class="box">
+            <input type="password" placeholder="Sua senha: " class="box">
+            <p>Esqueceu sua senha <a href="#">clique aqui</a></p>
+            <p>Não tem uma conta <a href="#">Crie agora</a></p>
+            <input type="submit" value="Login now" class="btn">
+        </form>
+
+    </header>
+
+
+    <!-- header section ends -->
+
+    <!-- home section starts -->
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3> Produtos frescos e<span> organicos</span> para você</h3>
+            <p> Somos o melhor mercado do momento. Criamos um jeito diferente de oferecer o frescor das feiras com
+                praticidade. E nosso compromisso é levar sempre até a sua mesa o que a natureza tem de melhor, com
+                frutas, legumes e verduras fresquinhos e o sorriso que não pode faltar.</p>
+            <a href="#" class="btn" id="1"> Compre agora</a>
+        </div>
+
+    </section>
+
+    <!-- home section ends-->
+
+
+    <!-- features section starts-->
+    <section class="features" id="features">
+
+        <h1 class="heading"><span> Nossas Características</span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="imagens/organicfood.jpeg" alt="">
+                <h3> Frescas e orgânicas</h3>
+                <p>As frutas frescas e orgânicas são uma escolha saudável e deliciosa para aqueles que buscam um estilo
+                    de vida saudável e sustentável. Além disso, as frutas frescas são uma ótima fonte de vitaminas,
+                    minerais e antioxidantes que são essenciais para manter nosso corpo saudável e funcionando
+                    corretamente.</p>
+                <a href="#" class="btn" id="2"> Saiba mais </a>
+            </div>
+
+            <div class="box">
+                <img src="imagens/entregadorr.jpg" alt="">
+                <h3> Entregas </h3>
+                <p> Procurando um delivery de comida? Temos a solução! Com nosso serviço de entrega, você desfruta de
+                    pratos deliciosos sem sair de casa. Faça seu pedido agora mesmo e aproveite! Experimente agora mesmo
+                    e descubra como a comida delivery pode tornar o seu dia a dia ainda mais saboroso.</p>
+                <a href="#" class="btn"> Saiba mais 
+                </a>
+            </div>
+            <div class="box">
+                <img src="imagens/desenho cel.jpg" alt="">
+                <h3> Pagamento </h3>
+                <p> Aceitamos diversas formas de pagamento para tornar a compra ainda mais fácil e segura para você.
+                    Além de cartões de crédito, também oferecemos opções de pagamento via transferência bancária e Pix.
+                    Aqui, sua segurança é a nossa prioridade. Compre com tranquilidade e desfrute.</p>
+                <a href="#" class="btn"> Saiba mais </a>
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+
+    <!-- features sections ends-->
+
+    <!-- products section starts-->
+
+    <section class="products" id="products">
+
+        <h1 class="heading"> <span> Produtos mais vendidos! </span> </h1>
+        <div class="swiper product-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="imagens/img12.png" alt="">
+                    <h3> Margarina Qualy tradicional 500 g </h3>
+                    <div class="price"> R$4,99 </div>
+                    <div class="starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <a href="#" class="btn"> Adicionar ao carrinho </a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="imagens/img13.png" alt="">
+                    <h3> Arroz branco Blue Ville tipo 1 5 kg</h3>
+                    <div class="price"> R$22,98 </div>
+                    <div class="starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn"> Adicionar ao carrinho</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="imagens/img14.png" alt="">
+                    <h3> Azeite de oliva Gallo clássico extra virgem vidro 500 ml</h3>
+                    <div class="price"> R$19,99 </div>
+                    <div class="starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn"> Adicionar ao carrinho</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="imagens/img15.png" alt="">
+                    <h3> Leite condensado Moça semidesnatado TP 395 g </h3>
+                    <div class="price"> R$4,69 </div>
+                    <div class="starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn"> Adicionar ao carrinho</a>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="swiper product-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="imagens/img16.png" alt="">
+                    <h3> Chocolate em tablete Lacta sabores 90 g </h3>
+                    <div class="price"> R$4,19 </div>
+                    <div class="starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn"> Adicionar ao carrinho</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="imagens/img17.png" alt="">
+                    <h3> Chocolate Lindt Lindor Milk ou Swiss Classic 100 g </h3>
+                    <div class="price"> R$19,90 </div>
+                    <div class="starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn"> Adicionar ao carrinho</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="imagens/img18.png" alt="">
+                    <h3> H20 </h3>
+                    <div class="price"> $4.99 </div>
+                    <div class="starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn"> add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="imagens/img19.png" alt="">
+                    <h3> Bohemia </h3>
+                    <div class="price"> $4.99 </div>
+                    <div class="starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn"> add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="imagens/img20.png" alt="">
+                    <h3> Csa Peroni </h3>
+                    <div class="price"> $4.99 </div>
+                    <div class="starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn"> add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="imagens/img21.png" alt="">
+                    <h3> Salton </h3>
+                    <div class="price"> $4.99 </div>
+                    <div class="starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn"> add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="imagens/img22.png" alt="">
+                    <h3> Salton Intenso </h3>
+                    <div class="price"> $4.99 </div>
+                    <div class="starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn"> add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="imagens/img23.png" alt="">
+                    <h3> M </h3>
+                    <div class="price"> $4.99 </div>
+                    <div class="starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn"> add to cart</a>
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- PRODUTOS, QUALQUER COISA ARRUMAR (ACHO QUE PRECCISA, MAS NAO SEI, FORTE ABRAÇO)-->
+    </section>
+
+
+    <!-- products section ends-->
+
+    <!-- categories section starts-->
+    <section class="categories" id="categories">
+
+        <h1 class="heading">product <span> categories</span></h1>
+        <div class="box-container">
+
+            <div class="box">
+                <img src="imagens/cat-vegetais.webp" alt="">
+                <h3> Vegitbles</h3>
+                <p> upto 45% off </p>
+                <a href="#" class="btn"> shop now</a>
+            </div>
+
+            <div class="box">
+                <img src="imagens/cat-fruta.webp" alt="">
+                <h3> Fresh fruits</h3>
+                <p> upto 45% off </p>
+                <a href="#" class="btn"> shop now</a>
+            </div>
+
+            <div class="box">
+                <img src="imagens/Dairy-Products.jpeg" alt="">
+                <h3> dairy products</h3>
+                <p> upto 45% off </p>
+                <a href="#" class="btn"> shop now</a>
+            </div>
+
+            <div class="box">
+                <img src="imagens/cat-carne.jpg" alt="">
+                <h3> fresh met</h3>
+                <p> upto 45% off </p>
+                <a href="#" class="btn"> shop now</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- categories section ends-->
+    <!-- CARNES-->
+    <section class="products" id="products">
+
+        <h1 class="heading"> <span> Carnes </span> </h1>
+        <div class="swiper product-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="imagens2/img1.png" alt="">
+                    <h3> Picanha tradicional peça a vácuo </h3>
+                    <div class="price"> R$57,99Kg </div>
+                    <div class="starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <a href="#" class="btn"> Adicionar ao carrinho </a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="imagens2/img2.png" alt="">
+                    <h3> Fraldinha Friboi </h3>
+                    <div class="price"> R$36,99kg </div>
+                    <div class="starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn"> Adicionar ao carrinho</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="imagens2/img3.png" alt="">
+                    <h3> COntrafilé pedaço</h3>
+                    <div class="price"> R$41,99kg </div>
+                    <div class="starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn"> Adicionar ao carrinho</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="imagens2/img4.png" alt="">
+                    <h3> Paleta de cordeiro Do Chef congelada </h3>
+                    <div class="price"> R$45,99kg </div>
+                    <div class="starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn"> Adicionar ao carrinho</a>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="swiper product-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="imagens2/img5.png" alt="">
+                    <h3> Cupim Friboi pedaço </h3>
+                    <div class="price"> R$36,99kg </div>
+                    <div class="starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn"> Adicionar ao carrinho</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="imagens2/img7.png" alt="">
+                    <h3> Costela suína Perdigão a granel </h3>
+                    <div class="price"> R$21,99kg </div>
+                    <div class="starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn"> Adicionar ao carrinho</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="imagens2/img8.png" alt="">
+                    <h3> Bisteca suína Sadia a granel </h3>
+                    <div class="price"> R$17,99kg </div>
+                    <div class="starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn"> add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="imagens2/img9.png" alt="">
+                    <h3> Coxinha da asa de frango a granel </h3>
+                    <div class="price"> 14,99kg </div>
+                    <div class="starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn"> add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="imagens2/img10.png" alt="">
+                    <h3>  Linguiça toscana Seara a granel </h3>
+                    <div class="price"> 15,29kg </div>
+                    <div class="starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn"> add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="imagens2/img11.png" alt="">
+                    <h3> Linguiça calabresa defumada Seara a granel </h3>
+                    <div class="price"> R$18,59 </div>
+                    <div class="starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn"> add to cart</a>
+            </div>
+
+        </div>
+        <!-- PRODUTOS, QUALQUER COISA ARRUMAR (ACHO QUE PRECCISA, MAS NAO SEI, FORTE ABRAÇO)-->
+        <!-- MARGARINAS-->
+    </section>
+
+    <section class="products" id="products">
+
+        <h1 class="heading"> <span> Margarinas </span> </h1>
+        <div class="swiper product-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="imagens2/img12.png" alt="">
+                    <h3> MArgarina Qualy tradicional 500g </h3>
+                    <div class="price"> R$4,99 </div>
+                    <div class="starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <a href="#" class="btn"> Adicionar ao carrinho </a>
+                </div>
+            </div>
+        </div>
+        <!-- PRODUTOS, QUALQUER COISA ARRUMAR (ACHO QUE PRECCISA, MAS NAO SEI, FORTE ABRAÇO)-->
+    </section>
+    <!-- review section starts -->
+
+    <section class="review" id="review">
+
+        <h1 class="heading"> custumer's <span> review </span> </h1>
+
+        <div class=" swiper review-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="imagens/num1.webp" alt="">
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos sint accusamus doloremque, repellat
+                        aspernatur optio unde saepe harum quibusdam accusantium commodi ipsum rem alias, aperiam dolorem
+                        quod? Repellendus, error! Debitis.</p>
+                    <h3> SEI LA 1 </h3>
+
+                    <div class="stars">
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="imagens/num2.webp" alt="">
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos sint accusamus doloremque, repellat
+                        aspernatur optio unde saepe harum quibusdam accusantium commodi ipsum rem alias, aperiam dolorem
+                        quod? Repellendus, error! Debitis.</p>
+                    <h3> SEI LA 2 </h3>
+
+                    <div class="stars">
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="imagens/num3.jpeg" alt="">
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos sint accusamus doloremque, repellat
+                        aspernatur optio unde saepe harum quibusdam accusantium commodi ipsum rem alias, aperiam dolorem
+                        quod? Repellendus, error! Debitis.</p>
+                    <h3> SEI LA 3 </h3>
+
+                    <div class="stars">
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="imagens/num4.jpg" alt="">
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos sint accusamus doloremque, repellat
+                        aspernatur optio unde saepe harum quibusdam accusantium commodi ipsum rem alias, aperiam dolorem
+                        quod? Repellendus, error! Debitis.</p>
+                    <h3> SEI LA 4 </h3>
+
+                    <div class="stars">
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- review section ends -->
+
+    <!--blogs section starts -->
+
+    <section class="blogs" id="blogs">
+
+        <h1 class="heading"> <span> Blog</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="imagens/blogv1.jpg" alt="">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"> <i class="fas fa-user"> </i> by user </a>
+                        <a href="#"> <i class="fas fa-calendar"> </i> 1st may. 2021 </a>
+                    </div>
+                    <h3> fresh and organic vegitables and fruits </h3>
+                    <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit odio similique rem suscipit odit
+                        aperiam, deleniti, a quisquam architecto temporibus molestias quia culpa dicta quam et eveniet
+                        repellendus omnis cum.</p>
+                    <a href="#" class="btn"> Saiba mais </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="imagens/blogF2.jpeg" alt="">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"> <i class="fas fa-user"> </i> by user </a>
+                        <a href="#"> <i class="fas fa-calendar"> </i> 1st may. 2021 </a>
+                    </div>
+                    <h3> fresh and organic vegitables and fruits </h3>
+                    <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit odio similique rem suscipit odit
+                        aperiam, deleniti, a quisquam architecto temporibus molestias quia culpa dicta quam et eveniet
+                        repellendus omnis cum.</p>
+                    <a href="#" class="btn"> Saiba mais </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="imagens/blogVV3.jpg" alt="">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"> <i class="fas fa-user"> </i> by user </a>
+                        <a href="#"> <i class="fas fa-calendar"> </i> 1st may. 2021 </a>
+                    </div>
+                    <h3> fresh and organic vegitables and fruits </h3>
+                    <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit odio similique rem suscipit odit
+                        aperiam, deleniti, a quisquam architecto temporibus molestias quia culpa dicta quam et eveniet
+                        repellendus omnis cum.</p>
+                    <a href="#" class="btn"> Saiba mais </a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--blogs section ends -->
+
+
+
+
+    <!-- footer section starts-->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3> groco <i class="fas fa-shopping-basket"> </i> </h3>
+                <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium eveniet repudiandae iusto nisi,
+                    dignissimos neque dicta doloremque amet rem, sit ut officiis veritatis, consequuntur placeat quidem.
+                    Alias blanditiis consectetur rerum? </p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <h3> Entre em contato </h3>
+                <a href="#" class="links"> <i class="fas fa-phone"></i> (11) 97148-6321</a>
+                <a href="#" class="links"> <i class="fas fa-phone"></i> (11) 2064-8812 </a>
+                <a href="#" class="links"> <i class="fas fa-envelope"></i> contactmercado@gmail.com </a>
+                <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> Avenida Paulista, 174 </a>
+
+            </div>
+            <div class="box">
+                <h3> Navegue pelo site </h3>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Início</a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Caracteristicas</a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Produtos mais vendidos</a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Categorias </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Avaliaçoes </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Blogs </a>
+
+            </div>
+
+            <div class="box">
+                <h3> Notícias </h3>
+                <p> Informe seu e-mail para receber informações </p>
+                <input type="email" placeholder="Seu e-mail..." class="email">
+                <input type="submit" class="subscribe" class="btn">
+            </div>
+
+            <div class="credit"> Created by <span> Grupo </span> all rights reserved </div>
+
+
+        </div>
+
+    </section>
+
+    <!-- footer section ends-->
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link -->
+    <script src="Java/scrip.js"></script>
+</body>
+
+</html>
