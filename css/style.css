@@ -286,13 +286,35 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url(../imagens/ban.jpg) no-repeat;
     background-position: center;
     background-size: cover;
     padding-top: 17rem;
     padding-bottom: 10rem;
 }
 
+.parallax {
+    background: url(../imagens/ban.jpg) ;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px; 
+    min-width: 500px;
+    background-size: 100%;
+}
+
+.parallax2 {
+    
+    background: url(../imagens/banneeer.jpeg) ;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px; 
+    min-width: 800px;
+    background-size: 100%;
+    
+}
 
 .home .content {
     text-align: center;
@@ -705,4 +727,12 @@ section {
         text-align: center;
     }
 
+    .parallax {
+        background: url(../imagens/ban.jpg) ;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-size: 100%;
+    }
 }
