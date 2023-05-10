@@ -126,6 +126,24 @@ section {
     display: none;
 }
 
+.foto{
+  position: absolute;
+    top: 0px;
+    left: 0px;
+    padding-left: 20pt;
+    margin-left: 0pt;
+    padding-top: 0pt;
+    
+}
+
+.logoo{
+font-size: 20px;
+margin: auto;
+padding-left: 15px;
+color: blue;
+
+}
+
 .header .search-form {
     position: absolute;
     top: 110%;
@@ -305,7 +323,7 @@ section {
 
 .parallax2 {
     
-    background: url(../imagens/banneeer.jpeg) ;
+    background: url(../imagens/ban2.avif) ;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -641,6 +659,39 @@ section {
     text-transform: none;
 }
 
+.footer .box-container .box .nome{
+    width: 100%;
+    margin: 0.7em 0;
+    padding: 1rem;
+    border-radius: .5rem;
+    background: #eee;
+    font-size: 1.6rem;
+    color: var(--black);
+    text-transform: none;
+}
+.footer .box-container .box .Msg{
+    width: 100%;
+    margin: 0.7em 0;
+    padding: 1rem;
+    border-radius: .5rem;
+    background: #eee;
+    font-size: 1.6rem;
+    color: var(--black);
+    text-transform: none;
+}
+.footer .box-container .box .assunto{
+    width: 100%;
+    margin: 0.7em 0;
+    padding: 1rem;
+    border-radius: .5rem;
+    background: #eee;
+    font-size: 1.6rem;
+    color: var(--black);
+    text-transform: none;
+}
+
+
+
 .footer .box-container .box .payment-img {
     margin-top: 2rem;
     height: 3rem;
@@ -660,6 +711,25 @@ section {
 .footer .credit span {
     color: var(--orange);
 }
+
+footer {
+    background-color: #c5c1c1;
+    padding: 20px;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  p{
+    display: flex;
+    font-size: 25px;
+    align-content:space-around;
+  }
+
+  .goi{
+    width: 80px;
+    height: 80px;
+  }
 
 /* media querires*/
 
@@ -716,15 +786,16 @@ section {
 @media (max-width:450px) {
 
     html {
-        font-size: 50%;
+        font-size: 60%;
     }
 
     .heading {
-        font-size: 2.5rem;
+        font-size: 2.0rem;
     }
 
     .footer {
         text-align: center;
+        justify-content: center;
     }
 
     .parallax {
